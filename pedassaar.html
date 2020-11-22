@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Saare kirjeldus</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="saar.css">
+</head>
+
+<body>
+
+    <script>
+    function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+        
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+        }
+    }
+    </script>
+
+    <h2>Pedassaar</h2>
+    <img src = img/pedassaar.jpeg >
+    <p>Pedassaar on 90 hektari suurune saar. Saar asub rannikust kilomeetri kaugusel ja
+        Salmistu sadamast on võimalik ka saarele pääseda. Rannajoone pikkus on 5,4 km ja kõrgeim
+        koht üle merepinna 13m. Saare rannad on väga eriilmelised. Landvaotsa astangueelne rand on lai 
+        ja tasane, mille jalamit murrutab lainetus kõrge veeseisu ja tugeva tuule puhul. Astang 
+        madaldub saare kirdeosas nelja meetrini. Ulguotsa randa ja rannanõlva katab tihe munakividest 
+        vöönd. Saare idarand on liigestatud väikeste rändrahnurohkete lahtede ja neemedega.
+         Saare läänerannik on järsk, loodeosas asub 8–10 m kõrgune Landvaotsa liivakiviastang, 
+         mille läheduses meres on kaks rändrahnu (Landvaotsa I ja II). Edelakaldal on kaunis liivarand, 
+         kus kallas järsult sügavneb. Pedassaarel on tuvastatud 160 liiki soontaimi. Suuremat osa saarest 
+         katab männimets. Saarel on tuvastatud 17 liiki linde ja saarel elab metskitsi.
+        <span id="dots">...</span><span id="more"> Pedassaar (Pöddar ehk Pöddre Sahr) esineb juba 1693. 
+        aastast pärineval Axel Holmi kaardil. Saare nime on seostatud seal kasvavate mändidega 
+        (pedajas = mänd). Kirjanduses esinevad ka nimekujud "Pädasaar" ja "Peedusaar". 
+        Varasemad teated saare asukatest pärinevad 1818. aasta lõpust, mil saarele kolis Rammu 
+        juurtega Tõnno Klamas Salmistust. 19. sajandi alguses rajati saarele metsavahikoht. Saarel on 
+        peetud lühiajaliselt kõrtsi ning siin on asunud piirivalvekordon. Saare idakaldale on Riigimetsa 
+        Majandamise Keskus rajanud matkajate tarvis metsamaja ning läänekaldale varikatusega lõkkekoha. 
+        Viimase juures algab ka 4 km pikkune vaheldusrikas Pedassaare loodusrada.
+        </span>
+    
+    </p>
+
+    <button onclick="myFunction()" id="myBtn">Read more</button>
+
+    <p>Asukoht: Saar asub Põhja-Eestis Kolga lahes ja kuulub Harju maakonda Kuusalu valda Salmistu külla. Koordinaadid 59° 30′ 51″ N, 25° 22′ 30″ E.</p>
+    
+    <p3>Hind: 400 000 €</p3>
+
+    <div> 
+        <!-- Google Map Copied Code -->
+        <iframe src=
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16193.457394958115!2d25.35550847832846!3d59.51339383029845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4692f964d0a03079%3A0xc15e1ee6ee8ba327!2sPedassaar!5e0!3m2!1set!2see!4v1606055175260!5m2!1set!2see"
+            width="400" 
+            height="300" 
+            frameborder="0" 
+            style="border:0;" 
+            allowfullscreen="" 
+            aria-hidden="false" 
+            tabindex="0">
+        </iframe>
+    </div> 
+</body>
