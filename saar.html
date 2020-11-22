@@ -1,20 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Kuulutused</title>
+  <title>Saare kirjeldus</title>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="saar.css">
 </head>
 
 <body>
-    <header>
-        <h1>Kuulutused</h1>
-    </header>
 
-    <h2>Hobulaid</h2>
-    <img
-        src="https://bioneer.ee/sites/default/files/Hobulaid.%20Maa-ameti%20geoportaal.jpg"
-    />
+    <script>
+    function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+        
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+        }
+    }
+    </script>
 
-    <p>Hobulaid (rootsi keeles Hästholm) on Lääne maakonda kuuluv laid Väinameres. Koordinaadid	58° 56′ 37″ N, 23° 23′ 7″ E. Saare pindala on 89 hektarit ja kõrgus kuni 6,6 meetrit. Hobulaid on põhja-lõuna suunas piklik ning kuni 2,5 kilomeetrit pikk. Rannajoone pikkus on 7,36 km. Hobulaiu põhiosa moodustab radiaalne oos, mille meri on ümber kujundanud. Laiul kasvab lehtmets (sanglepad, kased, saared), võsa ja kadastik. Laiul pesitsevad merikotkad. Vaatamisväärsusteks saarel lisaks Põhja-tulepaak ja lõuna-tulepaak. Sobib hästi suvituskohaks.</p>
-    <p>Hind: 500 000 €</p>
+    <h2>Hobulaiu</h2>
+    <img src = img/hobulaiu.jpeg >
+    <p>Hobulaid (rootsi keeles Hästholm) on Lääne maakonda kuuluv laid Väinameres. 
+         Saare pindala on 89 hektarit ja kõrgus kuni 6,6 meetrit. 
+        Hobulaid on põhja-lõuna suunas piklik ning kuni 2,5 kilomeetrit pikk. Rannajoone pikkus on 7,36 km. 
+        Hobulaiu põhiosa moodustab radiaalne oos, mille meri on ümber kujundanud. Laiul kasvab lehtmets 
+        (sanglepad, kased, saared), võsa ja kadastik. Laiul pesitsevad merikotkad. Vaatamisväärsusteks 
+        saarel lisaks Põhja-tulepaak ja lõuna-tulepaak. Sobib hästi suvituskohaks. Saarele on ehitatud ka 
+        puhkekeskus ning on olemas sadam. <span id="dots">...</span><span id="more">
+        Ajalugu: Hobulaidu mainiti esmakordselt 1391. aastal. Keskajal peeti seal Haapsalu piiskopilinnuse hobuseid.
+        Saar asustati 20. sajandi algul. 1936 elas saarel 2 peret ja lisaks omas üks pere veel kinnisvarakrunti. 
+        1970.-ndatel rajas Märjamaa külanõukogu laiule oma puhkebaasi. Hobulaiul on karjamaa ja see on tänapäeval ka 
+        suvituskohaks. 6. juunil 2015 sõitis laiu lähistel karile väikelaev.</span>
+    
+    </p>
+
+    <button onclick="myFunction()" id="myBtn">Read more</button>
+
+    <p>Asukoht: Hobulaid asub Vormsi ja Rohuküla vahel 2,4 kilomeetrit Pinukse neemest läänes. Koordinaadid 58° 56′ 37″ N, 23° 23′ 7″ E.</p>
+    <p3>Hind: 500 000 €</p3>
 </body>
