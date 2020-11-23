@@ -1,4 +1,4 @@
-body {
+  html, body {
     background-color: rgb(240, 240, 240);
   }
   #more{
@@ -7,7 +7,6 @@ body {
 
   button{
     background-color: #ffcc66;
-    border: none;
     outline: none;
     color: #4c4a37; 
     font-size: 15px;
@@ -38,24 +37,24 @@ body {
     text-align: justify; 
   }
 
-img {
+  img {
     height: 50%; 
     width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
- }
-
- p3 {
-    color: #4c4a37; 
-    font-family: 'Source Sans Pro', sans-serif; 
-    font-size: 24px; 
-    line-height: 32px;
-
-    
-    border: 4px solid #ffcc66;
-    border-radius: 12px; 
-    margin-left: 10px;
   }
 
+  h3 {
+    color: #4c4a37;
+    text-align: center; 
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 24px; 
+    line-height: 32px; 
 
+
+  }
+
+  iframe{
+    border-width: 0px;
+  }
