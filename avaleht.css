@@ -1,6 +1,7 @@
 /* Style the header with a grey background and some padding */d
 html, body {
     height: 100%;
+    background-color: #F0F3BD;
 }
 
 
@@ -13,13 +14,17 @@ html, body {
 
   position: fixed;
   width: 91%;
+
+  z-index: 9999;
+
+  background-color: #234363;
     
 }
   
   /* Style the header links */
 .header a {
 float: left;
-color: black;
+color: #F0F2F1;
 text-align: center;
 padding: 12px;
 text-decoration: none;
@@ -28,22 +33,30 @@ line-height: 25px;
 border-radius: 4px;
 }
 
-  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-.header a.logo {
-font-size: 25px;
-font-weight: bold;
+.logo {
+  width: 30vh;
+  background-repeat: no-repeat;
+  height: 3vh;
+  background-position: left;
 }
-  
+
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+
   /* Change the background color on mouse-over */
-.header a:hover {
-background-color: #ddd;
-color: black;
+.header-right a:hover {
+  background-color: #ddd;
+  color: #234363;
+}
+
+.header-right a {
+  font-size: 2.5vh;
+  margin: 0 2vh
 }
   
   /* Style the active/current link*/
 .header a.active {
-background-color: dodgerblue;
-color: white;
+background-color: #59C9CC;
+color: F0F2F1;
 }
   
   /* Float the link section to the right */
@@ -64,7 +77,9 @@ float: right;
 	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url("img/banner.jpg");
 	height: 50vh;
 	background-position: center;
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  
+  
     
     
     
@@ -77,7 +92,7 @@ float: right;
 }
 .heroImage h1,h3 {   
     
-    color: white;
+    color: #F0F2F1;
     padding: 0.5rem
 }
 
@@ -85,10 +100,10 @@ float: right;
 
 .container {
   
-  padding-top: 0;
+  padding-top: 4vh;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 
   margin: 10vh;
 }
@@ -97,6 +112,7 @@ float: right;
   width: 32%;
   padding-bottom: 18%; /* 32:18, i.e. 16:9 */
   margin-bottom: 2%; /* (100-32*3)/2 */
+  /* background-repeat: no-repeat; */
 
   position: relative;
 
