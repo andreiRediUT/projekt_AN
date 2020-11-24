@@ -113,7 +113,7 @@ float: right;
   padding-bottom: 18%; /* 32:18, i.e. 16:9 */
   margin-bottom: 2%; /* (100-32*3)/2 */
   /* background-repeat: no-repeat; */
-
+  
   position: relative;
 
 }

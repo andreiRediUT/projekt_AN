@@ -1,0 +1,16 @@
+footer {
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #234363;
+    color: white;
+    height: 10vh;
+    font-size: 2.5vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
