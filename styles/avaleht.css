@@ -91,3 +91,39 @@ h3 {
   text-align: center;
   font-size: 3rem;
 }
+
+/* SLIDESHOW */
+
+.karusell {
+  position: relative;
+  padding-top: 8vh;
+}
+
+.tekst {
+  position: absolute;
+  z-index: 3;
+
+  top: 50%; /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+
+  transform: translate(-50%, -50%);
+}
+
+.slide div {
+  width: 100%;
+  height: 59vh;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.karusell h1 {
+  font-size: 8vh;
+  font-weight: 800;
+  padding-bottom: 1rem;
+  letter-spacing: -0.05em;
+}
+.karusell h1,
+h3 {
+  color: #f0f2f1;
+  padding: 0.5rem;
+}
