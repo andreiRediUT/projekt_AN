@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Saare kirjeldus</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../styles/reset.css">
+  <link rel="stylesheet" href="../styles/saar.css">
+  <link rel="stylesheet" href="../layout/header_footer.css">
+</head>
+
+<body>
+
+    <script>
+    function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+        
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+        }
+    }
+    </script>
+
+    <div class="header">
+        <a href="#default" class="logo" style="background-image: url(../img/logo.png);"></a>
+        <div class="header-right">
+        <a href="../">Avaleht</a>
+        
+        <a href="../kontakt.html"> Kontakt</a>
+        </div>           
+    </div>
+
+    <h2>Kõrksaar</h2>
+    <img src = ../img/kõrksaar.jpeg alt="Pilt saarest">
+    <p>Kõrksaar (ka Kõrgesaar, Kõrgessaare laid, Kõrksa) on 91 hektari suurune saar. Pikkus on 2,4 km, 
+        laius 670 m ja rannajoone pikkus 7,9 km. Kõrgeim koht üle merepinna on 2,9 m.
+        Saar on pikliku kujuga ja madal. Saarel kasvavad valdavalt kadakad ja männid. 
+        Saar kuulub Pärnu lahe hoiuala koosseisu ja on looduskaitse all. <span id="dots">...</span><span id="more">
+        Nõukogude ajal toimusid saarel Pärnu Noorte Tehnikute Maja korraldatud sõjalis-sportlikud 
+        poistelaagrid, nõukogude tingimustele kohandatud versioon skautlikust liikumisest. Seetõttu 
+        hüüti saart ka Poistesaareks. Veel nimetati saart Kõrglaiuks. 1990. aastatel toimusid saarel 
+        ka skautide ja gaidide suurlaagrid, millest teadaolevalt viimane toimus 1996. aastal Sissisaare 
+        suurlaagri nime all. Saarel on osaliselt säilinud ka mõned laagriehitised: laagri köök, saun, 
+        kämpinguhooned. Saare tipus on alles vana hoone vundament. Saarele saab kas veesõidukiga või 
+        jalgsi mööda vana kitsast muuli. Muul on enamjaolt vee all. Suurem osa saarest on tänapäeval 
+        eraomandis. Saarel asub 2003. aastal valminud suvila.</span>
+    
+    </p>
+
+    <button onclick="myFunction()" id="myBtn">Read more</button>
+
+    <p>Asukoht: Kõrksaar asub Tõstamaast 12 kilomeetrit läänes ja Sõmeri poolsaarest idas. Koordinaadid 58° 20′ 20″ N, 23° 46′ 52″ E.</p>
+    
+    <h3>Hind: 450 000 €</h3>
+
+    <div> 
+        <!-- Google Map Copied Code -->
+        <iframe src=
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4908.977338530011!2d23.776502037392063!3d58.33878555632501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTjCsDIwJzIwLjAiTiAyM8KwNDYnNTIuMCJF!5e0!3m2!1set!2see!4v1606057808777!5m2!1set!2see"
+            width="400" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            aria-hidden="false" 
+            tabindex="0">
+        </iframe>
+    </div> 
+
+    
+</body>
