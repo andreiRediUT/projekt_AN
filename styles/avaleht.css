@@ -80,6 +80,28 @@ html, body {
 }
 
 
+.tutvustus {
+  color: #234363;
+  margin: 10vh;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.teine {
+  margin: 2vh 0;  
+  
+}
+
+.tutvustus h4 {
+  font-weight: bold;
+}
+
+
+.pealkiri {
+  text-align: center;
+  font-size: 3rem;
+}
+
 
 
 
