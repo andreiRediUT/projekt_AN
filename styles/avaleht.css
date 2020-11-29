@@ -1,4 +1,4 @@
-/* Style the header with a grey background and some padding */
+
 d html,
 body {
   height: 100%;
@@ -45,9 +45,9 @@ h3 {
 
 .item {
   width: 32%;
-  padding-bottom: 18%; /* 32:18, i.e. 16:9 */
-  margin-bottom: 2%; /* (100-32*3)/2 */
-  /* background-repeat: no-repeat; */
+  padding-bottom: 18%; 
+  margin-bottom: 2%; 
+  
 
   position: relative;
 }
