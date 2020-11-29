@@ -14,22 +14,24 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Saared Müügiks AS</title>
+
+    <script>
+        $(document).ready(function () {
+            $('.slide').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                autoplay: true,
+                autoplaySpeed: 3000
+
+            });
+        });
+
+    </script>
+
 </head>
 
-<script>
-    $(document).ready(function () {
-        $('.slide').slick({
-            dots: true,
-            infinite: true,
-            speed: 300,
-            slidesToShow: 1,
-            autoplay: true,         
-            autoplaySpeed: 3000
-
-        });
-    });
-
-</script>
 
 <body>
 
@@ -154,7 +156,7 @@
     </footer>
 
     <!-- Vajalikud scriptid, et käivitada slide show -->
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 
 </html>
