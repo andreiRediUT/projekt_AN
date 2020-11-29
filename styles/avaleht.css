@@ -1,9 +1,9 @@
-/* Style the header with a grey background and some padding */d
-html, body {
-    height: 100%;
-    background-color: #F0F3BD;
+/* Style the header with a grey background and some padding */
+d html,
+body {
+  height: 100%;
+  background-color: #f0f3bd;
 }
-
 
 /*#############   BÄNNER  ############# */
 
@@ -11,35 +11,30 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;   
-   
+  flex-direction: column;
+
   padding-top: 10vh;
-	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url("../img/banner.jpg");
-	height: 50vh;
-	background-position: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url("../img/banner.jpg");
+  height: 50vh;
+  background-position: center;
   background-repeat: no-repeat;
-  
-  
-    
-    
-    
 }
 .heroImage h1 {
   font-size: 8vh;
   font-weight: 800;
   padding-bottom: 1rem;
-  letter-spacing: -0.050em;
+  letter-spacing: -0.05em;
 }
-.heroImage h1,h3 {   
-    
-    color: #F0F2F1;
-    padding: 0.5rem
+.heroImage h1,
+h3 {
+  color: #f0f2f1;
+  padding: 0.5rem;
 }
 
 /*#############   Kuulutused  ############# */
 
 .container {
-  
   padding-top: 4vh;
   display: flex;
   flex-wrap: wrap;
@@ -53,9 +48,8 @@ html, body {
   padding-bottom: 18%; /* 32:18, i.e. 16:9 */
   margin-bottom: 2%; /* (100-32*3)/2 */
   /* background-repeat: no-repeat; */
-  
-  position: relative;
 
+  position: relative;
 }
 
 .container header {
@@ -65,20 +59,18 @@ html, body {
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
   color: #f1f1f1; /* Grey text */
   width: 100%; /* Full width */
-  padding: 20px 0; /* Some padding */ 
-  
+  padding: 20px 0; /* Some padding */
 }
 
 .container a {
   color: inherit;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .container header h1 {
   margin: 1vh;
   font-size: 3vh;
 }
-
 
 .tutvustus {
   color: #234363;
@@ -88,22 +80,14 @@ html, body {
 }
 
 .teine {
-  margin: 2vh 0;  
-  
+  margin: 2vh 0;
 }
 
 .tutvustus h4 {
   font-weight: bold;
 }
 
-
 .pealkiri {
   text-align: center;
   font-size: 3rem;
 }
-
-
-
-
-
-
